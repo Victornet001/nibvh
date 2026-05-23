@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FiFileText, FiCheckCircle, FiXCircle, FiDownload, FiHash } from 'react-icons/fi';
-import { verifyCAC } from '../../utils/api';
+import { verifyCAC, downloadPDF } from '../../utils/api';
 import toast from 'react-hot-toast';
-import { downloadPDF } from '../../utils/api';
 
 const CAC = () => {
   const [rcNumber, setRcNumber] = useState('');

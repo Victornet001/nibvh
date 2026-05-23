@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FiClock, FiShield, FiUsers, FiFileText, FiDownload, FiSearch } from 'react-icons/fi';
-import { getHistory } from '../../utils/api';
+import { getHistory, downloadPDF } from '../../utils/api';
 import toast from 'react-hot-toast';
-import { downloadPDF } from '../../utils/api';
+
 
 const History = () => {
   const [history, setHistory] = useState([]);

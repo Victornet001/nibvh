@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
   const [history, setHistory] = useState([]);
   const [wallet, setWallet] = useState(null);
-  const [transactions, setTransactions] = useState([]);
+  const [, setTransactions] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
