@@ -214,9 +214,9 @@ const Wallet = () => {
                     onClick={() => setAmount(val)}
                     style={{
                       padding: '7px 14px', borderRadius: '8px',
-                      border: `1.5px solid ${amount == val ? '#0f5132' : '#e5e7eb'}`,
-                      background: amount == val ? '#e8f7f1' : 'white',
-                      color: amount == val ? '#0f5132' : '#6b7280',
+                      border: `1.5px solid ${amount === val ? '#0f5132' : '#e5e7eb'}`,
+                      background: amount === val ? '#e8f7f1' : 'white',
+                      color: amount === val ? '#0f5132' : '#6b7280',
                       fontWeight: '500', fontSize: '13px',
                       cursor: 'pointer', fontFamily: 'Inter, sans-serif'
                     }}>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiFileText, FiCheckCircle, FiXCircle, FiDownload, FiHash } from 'react-icons/fi';
-import { verifyCAC, downloadPDF } from '../../utils/api';
+import { verifyCAC } from '../../utils/api';
 import toast from 'react-hot-toast';
 
 const CAC = () => {
